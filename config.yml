@@ -1,0 +1,17 @@
+
+data_csv_file_name : './data/data_20210924_20230922.csv'
+model_path : './seq2seg_lstm_model_e100_b100_s1500_t100.pth'
+test_data_path :  './test_tensors_e100_b100_s1500_t100.pkl'
+scaler_function_path : './scaler_e100_b100_s1500_t100.pkl'
+sequence_spacing : 200 # random space between two seqences
+sequence_length : 1500 # length of the sequence to learn
+forecast_length : 100 # length of target/forecast period
+num_epochs : 100 # number of epoches to train
+batch_size : 100 # size of the each timeseries batch for data loder
+
+hidden_size : 64  # Number of LSTM units
+input_size : 8 # check the train_features.shape[1]
+output_size : 1 # check train_features.shape[0]
+num_layers : 1  # Number of RNN layers # set 1 for LSTM
+learning_rate : 0.001
+
