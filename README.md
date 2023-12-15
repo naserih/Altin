@@ -53,7 +53,7 @@ Welcome to the Altin repository, an advanced AI and statistical tool designed fo
 
 ## Contribution Guidelines
 
-Contributions to Altin are welcome! If you'd like to contribute, please follow the [contribution guidelines](CONTRIBUTING.md).
+Contributions to Altin are welcome! If you'd like to contribute, please follow the [contribution guidelines](TODO.md).
 
 ## License
 
